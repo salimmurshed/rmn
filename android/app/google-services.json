@@ -1,0 +1,194 @@
+{
+  "project_info": {
+    "project_number": "479833908908",
+    "project_id": "rmn-events-e2b56",
+    "storage_bucket": "rmn-events-e2b56.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479833908908:android:c4fed410c3877558546109",
+        "android_client_info": {
+          "package_name": "com.rmnevents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479833908908-0fbgq44kcthj6t2maahe9mirsorvp1t9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rmnevents",
+            "certificate_hash": "58409b3d55c499a547b32d101df435ea2fe5a83b"
+          }
+        },
+        {
+          "client_id": "479833908908-5ipo23qu9rgj9vmkrdjp0b29facvlqc0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rmnevents",
+            "certificate_hash": "f0f8b729228b613de5784dc904e1e77828fac482"
+          }
+        },
+        {
+          "client_id": "479833908908-7q4ckl6a9h22l333uis87910qob356ou.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rmnevents",
+            "certificate_hash": "2a88b4f99eb5ddb5af21be94125944dfe2d85729"
+          }
+        },
+        {
+          "client_id": "479833908908-9il1nfsk824ifggn9al9khtvkp3p2v3g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rmnevents",
+            "certificate_hash": "dbc98ae0126290ece83e76c3ab256cb6e14c47d1"
+          }
+        },
+        {
+          "client_id": "479833908908-ep8hbk4f6njdlr7det6meqobeasgrl2b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rmnevents",
+            "certificate_hash": "829aec652da43760498ddfb166b75036248d86de"
+          }
+        },
+        {
+          "client_id": "479833908908-goissh7esd0hahubftasa2su0l8ak2v5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rmnevents",
+            "certificate_hash": "989663ac2ec522559c7a62853d0faea667c82eb0"
+          }
+        },
+        {
+          "client_id": "479833908908-oh870btj84j5ka4pvog6hh7iki8n8sik.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rmnevents",
+            "certificate_hash": "d9bfb5a1440e8fe3c1695762e39ad31b753b9722"
+          }
+        },
+        {
+          "client_id": "479833908908-rc45nujj3ur2kvt89q0ail084604j519.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rmnevents",
+            "certificate_hash": "8e7511d82e6de53d72b850306f7f8a82613a591b"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6yZtNNWzNwv1ged1xqS-EEeeC83fVuEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479833908908-k1k4roqiip03g6f010727q6kq39jd5tc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "479833908908-h7k3a8juhc7k5g3gtoqn1lep39thjb02.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rmnevents.staging"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479833908908:android:484a09bdf3a3a5dd546109",
+        "android_client_info": {
+          "package_name": "com.rmnevents.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479833908908-199a369rjrf2ardl5b94c8h7qp8au4lj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rmnevents.dev",
+            "certificate_hash": "f0f8b729228b613de5784dc904e1e77828fac482"
+          }
+        },
+        {
+          "client_id": "479833908908-40miqh0iaqd5jtl2oe9p0uh6u5uuc9ql.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rmnevents.dev",
+            "certificate_hash": "2a88b4f99eb5ddb5af21be94125944dfe2d85729"
+          }
+        },
+        {
+          "client_id": "479833908908-5b5cqcre9eiqclkfe9kbvaboj1v8kokr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rmnevents.dev",
+            "certificate_hash": "d9bfb5a1440e8fe3c1695762e39ad31b753b9722"
+          }
+        },
+        {
+          "client_id": "479833908908-cvl8ugvotnmqp284844tukn7u7lvemfp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rmnevents.dev",
+            "certificate_hash": "58409b3d55c499a547b32d101df435ea2fe5a83b"
+          }
+        },
+        {
+          "client_id": "479833908908-pbf5qlai044jc85o4sl8optvh7bi9048.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rmnevents.dev",
+            "certificate_hash": "dbc98ae0126290ece83e76c3ab256cb6e14c47d1"
+          }
+        },
+        {
+          "client_id": "479833908908-rm8l4ngfiju5obes3i1corcgalqigp6i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rmnevents.dev",
+            "certificate_hash": "989663ac2ec522559c7a62853d0faea667c82eb0"
+          }
+        },
+        {
+          "client_id": "479833908908-rrh58ecsbvf3ihgbj3tj3g65ma9orsnk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rmnevents.dev",
+            "certificate_hash": "8e7511d82e6de53d72b850306f7f8a82613a591b"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6yZtNNWzNwv1ged1xqS-EEeeC83fVuEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479833908908-k1k4roqiip03g6f010727q6kq39jd5tc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "479833908908-h7k3a8juhc7k5g3gtoqn1lep39thjb02.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rmnevents.staging"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,88 @@
+import 'package:flutter/cupertino.dart';
+
+import '../../../imports/common.dart';
+
+buildBottomSheetWithBodyTextField({
+  required BuildContext context,
+  required String title,
+  String highlightedString = AppStrings.global_empty_string,
+  bool isHighlightedStringBold = false,
+  bool isHighlightedStringAccented = true,
+  bool isSingleButtonColorFilled = true,
+  bool isSingeButtonPresent = true,
+  bool isSubtitleAsFooter = true,
+  bool isActive = true,
+  void Function()? onLeftButtonPressed,
+  void Function()? onRightButtonPressed,
+  String leftButtonText = AppStrings.global_empty_string,
+  String rightButtonText = AppStrings.global_empty_string,
+  required String subtitle,
+   String buttonText = AppStrings.global_empty_string,
+
+  required void Function() onButtonPressed,
+   required void Function() navigatorFunction,
+  required TextEditingController textEditingController,
+  required FocusNode focusNode,
+  required String label,
+  required String hint,
+  required TextInputType textInputType,
+  required void Function(String) onChanged,
+})
+{
+ return customBottomSheetBasicBody(
+    leftButtonText: leftButtonText,
+    rightButtonText: rightButtonText,
+    isActive: isActive,
+    onLeftButtonPressed: onLeftButtonPressed ?? () {},
+    onRightButtonPressed: onRightButtonPressed ?? () {},
+    title: title,
+    highLightedAthleteName: highlightedString,
+    context: context,
+    footerNote: subtitle,
+    singleButtonText: buttonText,
+    isAccentedHighlight: false,
+    isHighlightedTextBold: true,
+    highLightedString: highlightedString,
+    isSubtitleAsFooter: isSubtitleAsFooter,
+    singleButtonFunction: onButtonPressed,
+    widget: CustomTextFormFields(
+        textEditingController: textEditingController,
+        focusNode: focusNode,
+        label: label,
+        hint: hint,
+        onChanged: onChanged,
+        textInputType: textInputType),
+    isSingleButtonColorFilled: isSingleButtonColorFilled,
+    isSingeButtonPresent: isSingeButtonPresent,
+  );
+  // buildCustomShowModalBottomSheetParent(
+  //     ctx: context,
+  //     isNavigationRequired: true,
+  //     navigatorFunction: navigatorFunction,
+  //     child: customBottomSheetBasicBody(
+  //       leftButtonText: leftButtonText,
+  //       rightButtonText: rightButtonText,
+  //       isActive: isActive,
+  //       onLeftButtonPressed: onLeftButtonPressed ?? () {},
+  //       onRightButtonPressed: onRightButtonPressed ?? () {},
+  //       title: title,
+  //       highLightedAthleteName: highlightedString,
+  //       context: context,
+  //       footerNote: subtitle,
+  //       singleButtonText: buttonText,
+  //       isAccentedHighlight: false,
+  //       isHighlightedTextBold: true,
+  //       highLightedString: highlightedString,
+  //       isSubtitleAsFooter: isSubtitleAsFooter,
+  //       singleButtonFunction: onButtonPressed,
+  //       widget: CustomTextFormFields(
+  //           textEditingController: textEditingController,
+  //           focusNode: focusNode,
+  //           label: label,
+  //           hint: hint,
+  //           onChanged: onChanged,
+  //           textInputType: textInputType),
+  //       isSingleButtonColorFilled: isSingleButtonColorFilled,
+  //       isSingeButtonPresent: isSingeButtonPresent,
+  //     ));
+}

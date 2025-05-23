@@ -1,0 +1,189 @@
+{
+    "status": true,
+    "responseData": {
+        "ranks": [
+            {
+                "_id": "65856cfca648c79136681122",
+                "athlete_id": "641406c4163d8c255acccb49",
+                "division_type": "boys",
+                "style": "freestyle",
+                "division_id": "646d19f748ad6fce9e92229b",
+                "weight_class_id": "646d1a1348ad6fce9e9222a9",
+                "season_id": "646d170c48ad6fce9e92221a",
+                "rank": 1,
+                "createdAt": "2023-12-22T11:03:24.893Z",
+                "updatedAt": "2023-12-22T11:03:30.665Z",
+                "weight_class": {
+                    "_id": "646d1a1348ad6fce9e9222a9",
+                    "weight": "100"
+                },
+                "division": {
+                    "_id": "646d19f748ad6fce9e92229b",
+                    "title": "6 & Under"
+                }
+            },
+            {
+                "_id": "65856cfca648c79136681126",
+                "athlete_id": "641406c4163d8c255acccb49",
+                "division_type": "boys",
+                "style": "freestyle",
+                "division_id": "646d19f748ad6fce9e92229b",
+                "weight_class_id": "646d193f48ad6fce9e92225e",
+                "season_id": "646d170c48ad6fce9e92221a",
+                "rank": 1,
+                "createdAt": "2023-12-22T11:03:24.894Z",
+                "updatedAt": "2023-12-22T11:03:30.665Z",
+                "weight_class": {
+                    "_id": "646d193f48ad6fce9e92225e",
+                    "weight": "46"
+                },
+                "division": {
+                    "_id": "646d19f748ad6fce9e92229b",
+                    "title": "6 & Under"
+                }
+            },
+            {
+                "_id": "65856cfca648c79136681123",
+                "athlete_id": "641406c4163d8c255acccb49",
+                "division_type": "boys",
+                "style": "freestyle",
+                "division_id": "646d19f748ad6fce9e92229b",
+                "weight_class_id": "646d176848ad6fce9e922235",
+                "season_id": "646d170c48ad6fce9e92221a",
+                "rank": 2,
+                "createdAt": "2023-12-22T11:03:24.894Z",
+                "updatedAt": "2023-12-22T11:03:30.665Z",
+                "weight_class": {
+                    "_id": "646d176848ad6fce9e922235",
+                    "weight": "37"
+                },
+                "division": {
+                    "_id": "646d19f748ad6fce9e92229b",
+                    "title": "6 & Under"
+                }
+            },
+            {
+                "_id": "65856cfca648c79136681124",
+                "athlete_id": "641406c4163d8c255acccb49",
+                "division_type": "boys",
+                "style": "freestyle",
+                "division_id": "646d19f748ad6fce9e92229b",
+                "weight_class_id": "646d184b48ad6fce9e922242",
+                "season_id": "646d170c48ad6fce9e92221a",
+                "rank": 3,
+                "createdAt": "2023-12-22T11:03:24.894Z",
+                "updatedAt": "2023-12-22T11:03:30.665Z",
+                "weight_class": {
+                    "_id": "646d184b48ad6fce9e922242",
+                    "weight": "40"
+                },
+                "division": {
+                    "_id": "646d19f748ad6fce9e92229b",
+                    "title": "6 & Under"
+                }
+            },
+            {
+                "_id": "65856cfca648c79136681127",
+                "athlete_id": "641406c4163d8c255acccb49",
+                "division_type": "boys",
+                "style": "freestyle",
+                "division_id": "646d19f748ad6fce9e92229b",
+                "weight_class_id": "646d194a48ad6fce9e92226a",
+                "season_id": "646d170c48ad6fce9e92221a",
+                "rank": 3,
+                "createdAt": "2023-12-22T11:03:24.894Z",
+                "updatedAt": "2023-12-22T11:03:30.665Z",
+                "weight_class": {
+                    "_id": "646d194a48ad6fce9e92226a",
+                    "weight": "49"
+                },
+                "division": {
+                    "_id": "646d19f748ad6fce9e92229b",
+                    "title": "6 & Under"
+                }
+            },
+            {
+                "_id": "65856cfca648c79136681128",
+                "athlete_id": "641406c4163d8c255acccb49",
+                "division_type": "boys",
+                "style": "freestyle",
+                "division_id": "646d19f748ad6fce9e92229b",
+                "weight_class_id": "646d195548ad6fce9e922276",
+                "season_id": "646d170c48ad6fce9e92221a",
+                "rank": 3,
+                "createdAt": "2023-12-22T11:03:24.895Z",
+                "updatedAt": "2023-12-22T11:03:30.665Z",
+                "weight_class": {
+                    "_id": "646d195548ad6fce9e922276",
+                    "weight": "52"
+                },
+                "division": {
+                    "_id": "646d19f748ad6fce9e92229b",
+                    "title": "6 & Under"
+                }
+            },
+            {
+                "_id": "65856cfca648c79136681129",
+                "athlete_id": "641406c4163d8c255acccb49",
+                "division_type": "boys",
+                "style": "freestyle",
+                "division_id": "646d19f748ad6fce9e92229b",
+                "weight_class_id": "636a11b5acf9dc4d3cc52e5d",
+                "season_id": "646d170c48ad6fce9e92221a",
+                "rank": 3,
+                "createdAt": "2023-12-22T11:03:24.895Z",
+                "updatedAt": "2023-12-22T11:03:30.665Z",
+                "weight_class": {
+                    "_id": "636a11b5acf9dc4d3cc52e5d",
+                    "weight": "55"
+                },
+                "division": {
+                    "_id": "646d19f748ad6fce9e92229b",
+                    "title": "6 & Under"
+                }
+            },
+            {
+                "_id": "65856cfca648c7913668112a",
+                "athlete_id": "641406c4163d8c255acccb49",
+                "division_type": "boys",
+                "style": "freestyle",
+                "division_id": "646d19f748ad6fce9e92229b",
+                "weight_class_id": "646d196548ad6fce9e922285",
+                "season_id": "646d170c48ad6fce9e92221a",
+                "rank": 3,
+                "createdAt": "2023-12-22T11:03:24.895Z",
+                "updatedAt": "2023-12-22T11:03:30.665Z",
+                "weight_class": {
+                    "_id": "646d196548ad6fce9e922285",
+                    "weight": "61"
+                },
+                "division": {
+                    "_id": "646d19f748ad6fce9e92229b",
+                    "title": "6 & Under"
+                }
+            },
+            {
+                "_id": "65856cfca648c79136681125",
+                "athlete_id": "641406c4163d8c255acccb49",
+                "division_type": "boys",
+                "style": "freestyle",
+                "division_id": "646d19f748ad6fce9e92229b",
+                "weight_class_id": "646d18ce48ad6fce9e92224e",
+                "season_id": "646d170c48ad6fce9e92221a",
+                "rank": 4,
+                "createdAt": "2023-12-22T11:03:24.894Z",
+                "updatedAt": "2023-12-22T11:03:30.665Z",
+                "weight_class": {
+                    "_id": "646d18ce48ad6fce9e92224e",
+                    "weight": "43"
+                },
+                "division": {
+                    "_id": "646d19f748ad6fce9e92229b",
+                    "title": "6 & Under"
+                }
+            }
+        ],
+        "assets_url": "https://rmnevents.vitec-visual-dev.com:4202",
+        "message": "Athlete Rank list"
+    }
+}

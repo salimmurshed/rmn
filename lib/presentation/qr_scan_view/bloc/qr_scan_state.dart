@@ -1,0 +1,67 @@
+part of 'qr_scan_bloc.dart';
+
+@freezed
+class QrScanState with _$QrScanState {
+  const factory QrScanState({
+    required String message,
+    required bool isLoading,
+    required bool isRefreshedRequired,
+    required bool isFailure,
+    required bool isScannedButtonActive,
+    required QRViewController? qrViewController,
+    required GlobalKey qrKey,
+    required String qrItemId,
+    required int historyPage,
+    required int salesPage,
+    required int totalHistoryPage,
+    required int allPage,
+   required int totalAllPage,
+    required int totalSalesPage,
+    required bool isCameraResumed,
+    required bool scanLoading,
+    required bool isFetchingHistory,
+    required bool isFetchingSales,
+    required bool isFilterItemsLoading,
+    required bool isLoadingMore,
+    required int filterIndex,
+    required List<QrData> qrData,
+    required ScrollController scrollController,
+    required ScrollController scrollControllerI,
+    required int index,
+    required List<HistoryData> historyData,
+    required List<SalesData> salesData,
+    required int selectedIndex,
+
+  }) = _QrScanState;
+
+  factory QrScanState.initial() =>
+      QrScanState(
+        isFailure: false,
+        isLoading: false,
+        scanLoading: false,
+        isFetchingHistory: false,
+        isFetchingSales: false,
+        isScannedButtonActive: true,
+        filterIndex: -1,
+        isLoadingMore: false,
+        isFilterItemsLoading: false,
+        isRefreshedRequired: false,
+        message: AppStrings.global_empty_string,
+        qrViewController: null,
+        qrKey: GlobalKey(),
+        scrollController: ScrollController(),
+        scrollControllerI: ScrollController(),
+        historyPage: 0,
+        totalHistoryPage: 0,
+        allPage: 0,
+        totalAllPage: 0,
+        salesPage: 0,
+        totalSalesPage: 0,
+        selectedIndex: 0,
+        index: 0,
+        qrItemId: AppStrings.global_empty_string,
+        isCameraResumed: true,
+        historyData: [],
+        salesData: [],
+        qrData: [],);
+}

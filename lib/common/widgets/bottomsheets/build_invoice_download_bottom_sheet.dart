@@ -1,0 +1,52 @@
+import 'package:flutter/material.dart';
+
+import '../../../imports/common.dart';
+
+Widget buildBottomSheetWithDropDown(
+    {required GlobalKey<State<StatefulWidget>> globalKey,
+    required bool isExpanded,
+    required String title,
+    required String highlightedTitle,
+    required String hint,
+    bool isCancelBtnRequired = false,
+    required List<DropdownMenuItem<String>> items,
+    required String? selectedValue,
+    String? bodyText,
+        RichText? richText,
+    required bool isInvoice,
+    required String prompt,
+    required void Function(String?)? onChanged,
+    void Function(bool)? onMenuStateChange,
+    required String footerBtnLabel,
+    TextEditingController? textEditingController,
+    required void Function() onLeftTap,
+    required void Function() onRightTap,
+    required BuildContext context,
+    String leftBtnLabel = AppStrings.global_empty_string,
+    String rightBtnLabel = AppStrings.global_empty_string,
+    required void Function() onTap}) {
+  return bottomSheetWithDropDownBody(
+      isInvoice: isInvoice,
+      onLeftTap: onLeftTap,
+      onRightTap: onRightTap,
+      leftBtnLabel: leftBtnLabel,
+      rightBtnLabel: rightBtnLabel,
+      isCancelBtnRequired: isCancelBtnRequired,
+      selectedValue: selectedValue,
+      globalKey: globalKey,
+      isExpanded: isExpanded,
+      isButtonActive: selectedValue != null,
+      items: items,
+      richText: richText,
+      context: context,
+      onChanged: onChanged,
+      onMenuStateChange: onMenuStateChange,
+      onTap: onTap,
+      prompt: prompt,
+      textEditingController: textEditingController,
+      title: title,
+      bodyText: bodyText,
+      footerBtnLabel: footerBtnLabel,
+      highlightedTitle: AppStrings.global_empty_string,
+      hint: hint);
+}
